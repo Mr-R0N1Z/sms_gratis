@@ -10,6 +10,7 @@ ku='\033[33;1m' #kuning
 # Jangan Recode Ya gayn
 # yang Recode Besok  Mati Amin
 clear
+figlet R0N1Z
 sleep 0.03
 echo $i Butuh $me Root $i Gan!
 sleep 0.03
@@ -17,17 +18,21 @@ echo $pur Jika udah di $me root $pur tunggu aja
 sleep 0.03
 echo $ku Yang gak $me Root $ku akan Stuck
 sleep 0.03
-echo $i Tunggu 4detik
-sleep 4
+echo $i Tunggu 6detik
+sleep 6
 clear
 pkg install git -y
 git clone https://github.com/amsitlab/smsid-java.git
-sleep 2
+sleep 0.1
 clear
 cd
+sleep 0.1
+clear
 cd smsid-java
+sleep 0.1
+clear
 bash install
-sleep 2
+sleep 0.1
 clear
 echo $i '_____ ____  _____ _____
 |  ___|  _ \| ____| ____|
